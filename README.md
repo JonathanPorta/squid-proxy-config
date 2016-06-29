@@ -27,5 +27,5 @@ Quick notes on getting a Squid proxy up and running on a dev Fedora 24 box. This
 6. Profit.
 
 ### Useful Links
-[Squid on Fedora Notes](http://www.server-world.info/en/note?os=Fedora_24&p=squid&f=3)
-[Official Docs](http://www.squid-cache.org/Doc/man/)
+- [Squid on Fedora Notes](http://www.server-world.info/en/note?os=Fedora_24&p=squid&f=3)
+- [Official Docs](http://www.squid-cache.org/Doc/man/)
