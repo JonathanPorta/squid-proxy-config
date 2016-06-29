@@ -3,26 +3,26 @@ Quick notes on getting a Squid proxy up and running on a dev Fedora 24 box. This
 
 ### Installation
 1. Install Squid and a basic auth tool on Fedora:
-```
-$ dnf -y install squid httpd-tools
-```
+  ```
+  $ dnf -y install squid httpd-tools
+  ```
 
 2. Create a new `.htpasswd` and a user named `heroku`:
-```
-$ htpasswd -c /etc/squid/.htpasswd heroku
-```
+  ```
+  $ htpasswd -c /etc/squid/.htpasswd heroku
+  ```
 
 3. Replace ` /etc/squid/squid.conf` with the `squid.conf` in this repo.
 
 4. Enable the squid service:
-```
-$ systemctl enable squid.service
-```
+  ```
+  $ systemctl enable squid.service
+  ```
 
 5. Start the squid service:
-```
-$ systemctl enable squid.service
-```
+  ```
+  $ systemctl enable squid.service
+  ```
 
 6. Profit.
 
